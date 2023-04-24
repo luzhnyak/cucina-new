@@ -1,21 +1,46 @@
-.header {
-  padding: 20px 0;
-}
+/* ======================= Header ========================== */
 
-.nav-list {
+.header-section {}
+
+.header-wrapper {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  justify-content: space-between;
+  padding-top: 17px;
+  padding-bottom: 20px;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.page-nav {
+  display: flex;
+  align-items: center;
 }
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.logo-link {
+  display: flex;
+  gap: 16px;
+
+  align-items: center;
+  margin-right: 228px;
 }
+
+.menu {
+  display: flex;
+  gap: 52px;
+  align-items: center;
+  padding-left: 8px;
+}
+
+.header-btn {
+  padding: 10px 33px;
+  border: 1px solid #f3f3f3;
+  border-radius: 16px;
+  color: currentColor;
+  background-color: transparent;
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  background: rgba(188, 26, 26, 0.4);
+}
+
+/* ======================= /Header ========================== */

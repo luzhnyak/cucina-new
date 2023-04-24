@@ -1,0 +1,27 @@
+/* ======================= Footer ========================== */
+
+.footer-container {
+    text-align: center;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.address-item .link {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-wrapper .social-item {
+    margin-bottom: 16px;
+}
+
+.adress-icon {
+    fill: currentColor;
+}
+
+/* ======================= /Footer ========================== */

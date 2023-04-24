@@ -1,0 +1,108 @@
+/* ======================= Hero ========================== */
+
+main {
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+
+.hero-section {
+    padding-top: 72px;
+    padding-bottom: 71px;
+}
+
+.hero-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.hero-left-side {
+    margin-right: 160px;
+}
+
+.hero-title {
+    padding-left: 12px;
+    margin-bottom: 24px;
+    border-left: 1px solid #f3f3f3;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 1.22;
+}
+
+.hero-desc {
+    margin-bottom: 48px;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 1.22;
+}
+
+.hero-desc span {
+    font-weight: 900;
+    color: rgba(188, 26, 26, 0.71);
+}
+
+.hero-btn {
+    margin-bottom: 48px;
+    padding: 20px 84px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.23;
+    color: currentColor;
+    border: 0;
+    background: rgba(188, 26, 26, 0.2);
+    border-radius: 16px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background: rgba(188, 26, 26, 0.4);
+}
+
+.hero-list {
+    display: flex;
+}
+
+.hero-list {
+    display: flex;
+}
+
+.hero-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    padding-right: 19px;
+    padding-left: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+}
+
+.hero-item span {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.hero-item:first-child {
+    width: 230px;
+    border-right: 1px solid #f3f3f3;
+}
+
+.hero-img {
+    margin-right: 47px;
+}
+
+.social-item {
+    margin-bottom: 32px;
+}
+
+.social-link {}
+
+.social-icon {
+    fill: currentColor;
+}
+
+/* ======================= /Hero ========================== */
