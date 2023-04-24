@@ -4,82 +4,243 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/cucina-new/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Cucina di Catherina</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@300;400;500;600;700;800;900&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+
     
-    <script type="module" crossorigin src="/cucina-new/assets/index-fac82e35.js"></script>
-    <link rel="stylesheet" href="/cucina-new/assets/index-10c40100.css">
+    <link rel="stylesheet" href="/cucina-new/assets/index-6ac321f8.css">
   </head>
   <body>
-    <header class="header">
-  <nav class="nav">
-    <ul class="nav-list">
-      <li class="nav-item">
-        <a href="./page-2.html" class="nav-link">Page 2</a>
-      </li>
-
-      <li class="nav-item">
-        <a href="./page-3.html" class="nav-link">Page 3</a>
-      </li>
-    </ul>
-  </nav>
+    <!-- HEADER -->
+<header class="header-section">
+  <div class="header-wrapper container">
+    <nav class="page-nav">
+      <a class="logo-link link" href="">
+        <svg class="social-icon" width="32" height="32">
+          <use href="../img/sprite.svg#icon-logo"></use>
+        </svg>
+        CUCINA
+      </a>
+      <ul class="menu list">
+        <li class="menu-item">
+          <a class="menu-link link" href="">Home</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link link" href="">Store</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link link" href="">Recipes</a>
+        </li>
+        <li class="menu-item">
+          <a class="menu-link link" href="">Gallery</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="header-btn btn" type="button">Contact us</button>
+  </div>
 </header>
 
-
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="/cucina-new/assets/javascript-8dac5379.svg" alt="" />
-    </section>
-
-    <!-- Loads the specified .html file -->
-    <section class="vite-promo">
-  <div class="container">
-    <div class="wrapper">
-      <h2 class="title">
-        <span class="gradient">Vite</span>
-      </h2>
-      <p class="text">Next Generation Frontend Tooling</p>
-      <p class="tagline">
-        Get ready for a development environment that can finally catch up with
-        you.
+    <main>
+      <!-- HERO -->
+<section class="hero-section">
+  <div class="hero-wrapper container">
+    <div class="hero-left-side">
+      <h1 class="hero-title">CUCINA DI CATHERINA</h1>
+      <p class="hero-desc">
+        We know,<br />
+        you will <span>love</span> our product
       </p>
-
-      <ul class="actions">
-        <li class="action">
-          <a
-            class="link"
-            href="https://vitejs.dev/guide/"
-            target="_blank"
-            rel="noopener noreferrer"
-            >Get Started</a
-          >
-        </li>
-        <li class="action">
-          <a
-            class="link"
-            href="https://github.com/vitejs/vite"
-            target="_blank"
-            rel="noopener noreferrer"
-            >View on GitHub</a
-          >
+      <button class="hero-btn" type="button">Buy now</button>
+      <ul class="hero-list list">
+        <li class="hero-item"><span>14</span>different tastes</li>
+        <li class="hero-item">
+          <span>31</span>factories around<br />
+          the world
         </li>
       </ul>
     </div>
 
-    <div class="thumb">
-      <!-- Path to images as from index.html file -->
-      <img
-        class="pic"
-        src="/cucina-new/assets/vite-logo-51249ca9.png"
-        alt="Vite logo"
-        width="640"
-        height="640"
-      />
-    </div>
+    <img class="hero-img" src="../img/hero.png" alt="Cucina" />
+    <ul class="social-list list">
+      <li class="social-item">
+        <a class="social-link link" href="">
+          <svg class="social-icon" width="24" height="24">
+            <use href="../img/sprite.svg#icon-tumblr"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social-item">
+        <a class="social-link link" href="">
+          <svg class="social-icon" width="24" height="24">
+            <use href="../img/sprite.svg#icon-instagram"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social-item">
+        <a class="social-link link" href="">
+          <svg class="social-icon" width="24" height="24">
+            <use href="../img/sprite.svg#icon-youtube"></use>
+          </svg>
+        </a>
+      </li>
+      <li class="social-item">
+        <a class="social-link link" href="">
+          <svg class="social-icon" width="24" height="24">
+            <use href="../img/sprite.svg#icon-twitter"></use>
+          </svg>
+        </a>
+      </li>
+    </ul>
   </div>
 </section>
 
+      <!-- MAIN -->
 
-    
+<section class="section">
+  <div class="container">
+    <ul class="first-container list">
+      <li class="first-list-one">
+        <img src="../img/imgsect1.1.png" alt="red tomatoes on a branch" />
+        <div class="description">
+          <h2 class="heading-description">Classic sauce</h2>
+          <p class="paragraph-description">
+            The most delicate taste of tomatoes, combined with branded spices
+            and white wine, will make your dish incredibly tasty.
+          </p>
+          <button class="first-section-btn" type="button">Buy now</button>
+        </div>
+      </li>
+      <li class="first-list-two">
+        <img src="../img/imgsect1.2.png" alt="red hot peppers" />
+        <div class="description">
+          <h2 class="heading-description">Spicy sauce</h2>
+          <p class="paragraph-description">
+            For thrill-seekers, we added hot chili pepper to our sauce, it also
+            reveals all the tastes and aromas of the sauce well.
+          </p>
+          <button class="first-section-btn" type="button">Buy now</button>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <ul class="second-container list">
+      <li class="">
+        <img src="../img/imgsect2.1.png" alt="cook together" />
+        <h2 class="heading-section-two">Bell pepper pasta</h2>
+      </li>
+      <li class="">
+        <img src="../img/imgsect2.2.png" alt="Cooking" />
+        <h2 class="heading-section-two">Tomato paste</h2>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="section">
+  <div class="third-section container">
+    <img src="../img/imgsect3.png" alt="tomatoes in the garden" />
+  </div>
+</section>
+
+    </main>
+    <!-- FOOTER -->
+
+<footer>
+  <div class="footer-container container">
+    <div class="footer-wrapper">
+      <a class="logo-link link" href="">
+        <svg class="social-icon" width="32" height="32">
+          <use href="../img/sprite.svg#icon-logo"></use>
+        </svg>
+        CUCINA
+      </a>
+      <ul class="foot-menu list">
+        <li class="foot-item">
+          <a class="menu-link link" href="">Home</a>
+        </li>
+        <li class="foot-item">
+          <a class="menu-link link" href="">Store</a>
+        </li>
+        <li class="foot-item">
+          <a class="menu-link link" href="">Recipes</a>
+        </li>
+        <li class="foot-item">
+          <a class="menu-link link" href="">Gallery</a>
+        </li>
+      </ul>
+      <address>
+        <ul class="adress-list list">
+          <li class="address-item">
+            <a class="link" href="https://goo.gl/maps/pRxkrZQEtzReCntT8"
+              ><svg class="adress-icon" width="24" height="24">
+                <use href="../img/sprite.svg#icon-location"></use>
+              </svg>
+              Elvia Elviaveien 1, 1234 Oslo</a
+            >
+          </li>
+          <li class="address-item">
+            <a class="link" href="mailto:willie.jennings@example.com"
+              ><svg class="adress-icon" width="24" height="24">
+                <use href="../img/sprite.svg#icon-email"></use>
+              </svg>
+              willie.jennings@example.com</a
+            >
+          </li>
+        </ul>
+      </address>
+      <ul class="foot-social-list list">
+        <li class="social-item">
+          <a class="social-link link" href="">
+            <svg class="social-icon" width="24" height="24">
+              <use href="../img/sprite.svg#icon-tumblr"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a class="social-link link" href="">
+            <svg class="social-icon" width="24" height="24">
+              <use href="../img/sprite.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a class="social-link link" href="">
+            <svg class="social-icon" width="24" height="24">
+              <use href="../img/sprite.svg#icon-youtube"></use>
+            </svg>
+          </a>
+        </li>
+        <li class="social-item">
+          <a class="social-link link" href="">
+            <svg class="social-icon" width="24" height="24">
+              <use href="../img/sprite.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <p>
+      By using this website, you agree to the
+      <a href="">Terms of Service</a> and
+      <a href="">Privacy Policy</a>
+    </p>
+  </div>
+</footer>
+
   </body>
 </html>
