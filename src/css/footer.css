@@ -1,27 +1,110 @@
 /* ======================= Footer ========================== */
 
-.footer-container {
+.footer-container {  
     text-align: center;
-}
-
-.footer-wrapper {
+  }
+  
+  .footer-wrapper {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-}
-
-.address-item .link {
+    }
+  .logo-box {
+    margin-right: 157px;
+    margin-bottom: 107px;
+  }
+  .foot-logo-link {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+  }
+  .foot-menu-box {
+    margin-right: 171px;
+    margin-bottom: 61px;
+  }
+  .foot-menu {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 60px;
+    height: 136px;
+    gap: 20px;
+  }
+  .menu-link {
+    height: 19px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .foot-item :hover,
+  .foot-item :focus {
+    color: rgba(188, 26, 26, 0.5);
+  }
+  .adress-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+  
+    margin-right: 218px;
+    margin-bottom: 71px;
+    width: 253px;
+    height: 88px;
+  }
+  .contacts-address {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .address-item:first-child {
+    padding-top: 0;
+    padding-bottom: 45px;
+  }
+  .address-item .link {
     display: flex;
     gap: 10px;
     align-items: center;
-}
-
-.footer-wrapper .social-item {
-    margin-bottom: 16px;
-}
-
-.adress-icon {
-    fill: currentColor;
-}
-
-/* ======================= /Footer ========================== */
+  }
+  .adress-icon {
+      fill: currentColor;
+    }
+  .social-box {
+    height: 144px;
+    margin-bottom: 35px;
+  }
+  .foot-social-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .foot-social-item {
+    
+  }
+  .foot-social-item :hover,
+  .foot-social-item :focus {
+    color: rgba(188, 26, 26, 0.5);
+  }
+  .footer-text {
+    width: 465px;
+    height: 17px;
+    margin-right: auto;
+    margin-left: auto;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #979797;
+  }
+  .footer-text > a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration-line: underline;
+  
+    color: #ffffff;
+  }
+  
+  /* ======================= /Footer ========================== */
+  
