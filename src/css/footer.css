@@ -8,6 +8,7 @@
   display: flex;
 }
 .logo-box {
+  margin-left: 60px;
   margin-right: 157px;
   margin-top: 64px;
 }
